@@ -7,7 +7,10 @@ I want to create a recipe tool, that catalogs online recipes in a simple, person
 # Tech Specs
 * mobile-first design
 
-# MVP
+# MVP TBC
+1. 
+
+# All the nitty gritty details
 * As a user I'd see just the logo upon loading the app
 
 ### 1. HOME
