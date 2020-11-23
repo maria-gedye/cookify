@@ -3,13 +3,13 @@ Personal project
 
 # Aim
 I want to create a recipe tool, that catalogs online recipes in a simple, personalised way, similar to saving songs to a custom playlist on spotify. Users should be able to share a chosen website link to Cookify, which can be imported and added straight into the app.
-<br/>
+
 # Tech Specs
 * mobile-first design
-<br/>
+
 # MVP
 * As a user I'd see just the logo upon loading the app
-<br/>
+
 ### 1. HOME
 * As a user I'd see the home page, which would have:
   * navigator bar which displays the logo, an add button(this adds a new recipe) and settings button(see Stretch)
@@ -17,7 +17,7 @@ I want to create a recipe tool, that catalogs online recipes in a simple, person
   * A top section displaying thumbnails of recipe folders (see Stretch)
   * A bottom section displaying 'recently viewed' recipes, this will be a carousel that doesn't loop.
   * A dashboard on the bottom which displays 3 buttons: Home, Search(see Stretch), and Your Cookbook
- <br/> 
+ 
 ### 2. ADD RECIPE
  * As a user I'd like to use the add button on the home page. This would take the user to a new page called 'Add recipe' which would see:
   * A navigator bar which displays a back arrow to go back to home page, the page header and a 'SAVE' button
@@ -33,7 +33,7 @@ I want to create a recipe tool, that catalogs online recipes in a simple, person
  * This method only works if the 'FIND RECIPE' tab is implemented(see Stretch). When the user searches a recipe/ingredient in the search bar, and the google results appear, when a user selects a link it will automatically import the recipe details. In this case it will import the url into the 'Source' input and the title into the 'Title' input.
 - - - - - - - - - - -
 * As a user, once all neccessary details have been added into the form, user can press 'SAVE' in the navigator and the user will be brought back to the home page.
-<br/>
+
 ### 3. YOUR COOKBOOK
 * As a user I'd like to be able to select 'Your Cookbook' from the dashboard, and that would take the user to another page where the user would see:
     * the same navigator bar which displays the logo, an add button(this adds a new recipe) and settings button(see Stretch)
@@ -61,7 +61,7 @@ I want to create a recipe tool, that catalogs online recipes in a simple, person
   // IF EDIT SELECTED: If the user selects the edit button, this redirects the user to the 'ADD A RECIPE' form (with the Title, Source and Folder inputs). Once the changes have been made the user can select 'SAVE' and that will redirect back to the selected Recipe Folder.
   - - - - - - - - - - -
   // IF DELETE SELECTED: This deletes the recipe row(see Stretch)
-<br/>
+
 
 # Stretch
 1. HOME PAGE
