@@ -51,14 +51,14 @@ I want to create a recipe tool, that catalogs online recipes in a simple, person
 - - - - - - - - - - -
 *NAVIGATING A RECIPE FOLDER
 * Once the user has created at least one folder, this should now display as a thumbnail in the 'Folders' tab. Now the user can select the folder which would take the user to another page which the user should see:
-  * the same navigator bar which displays the logo, an edit button(this edits the recipe folder) and a delete button(this deletes recipe folder)
-   // IF EDIT SELECTED: If the user selects the edit button, this redirects the user to the 'Create folder' form (with the name and add recipe inputs). Once the changes have been made the user can select 'SAVE' and that will redirect back to the selected Recipe Folder.
+  * the same navigator bar which displays a back button(returns to 'YOUR COOKBOOK'), the recipe folder name, an edit button(this edits the recipe folder) and a delete button(this deletes recipe folder)
+   // IF EDIT SELECTED: If the user selects the edit button, this redirects the user to the 'Edit folder' form (with the name and add recipe inputs). Once the changes have been made the user can select 'SAVE' and that will redirect back to the selected Recipe Folder and this will update that recipe folder in the database.
    - - - - - - - - - - -
   // IF DELETE SELECTED: This deletes the recipe folder(see Stretch)
 - - - - - - - - - - -
   * a list of recipes displayed in rows. Each row would have an image thumbnail and the recipe title next to it. When the user selects a row the app will navigate externally to the recipe source url (basically the button opens up a new internet browser tab).
   * if the user 'holds' a recipe, this will make two buttons appear - an edit icon, and a delete icon. 
-  // IF EDIT SELECTED: If the user selects the edit button, this redirects the user to the 'ADD A RECIPE' form (with the Title, Source and Folder inputs). Once the changes have been made the user can select 'SAVE' and that will redirect back to the selected Recipe Folder.
+  // IF EDIT SELECTED: If the user selects the edit button, this redirects the user to a 'EDIT RECIPE' form which looks the same as the 'ADD A RECIPE' page(with the Title, Source and Folder inputs). Only the difference is, 'EDIT RECIPE' will be updating the selected recipe - not creating a new one! Once the changes have been made the user can select 'SAVE' and that will redirect back to the selected Recipe Folder.
   - - - - - - - - - - -
   // IF DELETE SELECTED: This deletes the recipe row(see Stretch)
 
