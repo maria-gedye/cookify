@@ -3,7 +3,7 @@ Personal project
 
 # Aim
 I want to create a recipe tool, that catalogs online recipes in a simple, personalised way, similar to saving songs to a custom playlist on spotify. Users should be able to share a chosen website link to Cookify, which can be imported and added straight into the app.
-<br>
+<br/>
 # Tech Specs
 * mobile-first design
 <br>
