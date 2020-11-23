@@ -8,7 +8,7 @@ I want to create a recipe tool, that catalogs online recipes in a simple, person
 * mobile-first design
 
 # MVP
-1. Create html & css templates for each page
+1. Create html & css templates for each page (thumbnails: https://docs.google.com/document/d/1D6Xy5jwnxpEStGexStxlxxNqOS808Up6rDgR4RM8-SE/edit?usp=sharing)
 2. Create React components using html as a guide
 3. Create a database with 2 tables - one for recipe folders, the other for recipes.
 4. Setup routes in server side 
