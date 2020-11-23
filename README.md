@@ -10,7 +10,7 @@ I want to create a recipe tool, that catalogs online recipes in a simple, person
 # MVP
 * As a user I'd see just the logo upon loading the app
 
-## 1. HOME PAGE
+### 1. HOME PAGE
 * As a user I'd see the home page, which would have:
   * navigator bar which displays the logo, an add button(this adds a new recipe) and settings button(see Stretch)
   * A greeting (see Stretch)
@@ -25,13 +25,13 @@ I want to create a recipe tool, that catalogs online recipes in a simple, person
   * A 'Folder' drop-down menu which allows the user to select which recipe folder to save the recipe to
   * A 'Source' text field to paste in a web address the recipe originated from
   * The same dashboard on the bottom which displays 3 buttons: Home, Search(see Stretch), and Your Cookbook
- 
+ - - - - - - - - - - -
  *METHOD ONE - ADD A RECIPE:
  * User finds recipe on their internet browser and either selects the share icon which appears when tapping the url bar(chrome) or selecting the 'share' button in the menu. This brings up a window titled 'Share via' and you can select the app which will import the web address directly into the app. 
- 
+- - - - - - - - - - - 
  *METHOD TWO - ADD A RECIPE:
  * This method only works if the 'FIND RECIPE' tab is implemented(see Stretch). When the user searches a recipe/ingredient in the search bar, and the google results appear, when a user selects a link it will automatically import the recipe details. In this case it will import the url into the 'Source' input and the title into the 'Title' input.
-
+- - - - - - - - - - -
 * As a user, once all neccessary details have been added into the form, user can press 'SAVE' in the navigator and the user will be brought back to the home page.
 
 ## 3. YOUR COOKBOOK
@@ -54,6 +54,7 @@ I want to create a recipe tool, that catalogs online recipes in a simple, person
   * the same navigator bar which displays the logo, an edit button(this edits the recipe folder) and a delete button(this deletes recipe folder)
    // IF EDIT SELECTED: If the user selects the edit button, this redirects the user to the 'Create folder' form (with the name and add recipe inputs). Once the changes have been made the user can select 'SAVE' and that will redirect back to the selected Recipe Folder.
   // IF DELETE SELECTED: This deletes the recipe folder(see Stretch)
+- - - - - - - - - - -
   * a list of recipes displayed in rows. Each row would have an image thumbnail and the recipe title next to it. When the user selects a row the app will navigate externally to the recipe source url (basically the button opens up a new internet browser tab).
   * if the user 'holds' a recipe, this will make two buttons appear - an edit icon, and a delete icon. 
   // IF EDIT SELECTED: If the user selects the edit button, this redirects the user to the 'ADD A RECIPE' form (with the Title, Source and Folder inputs). Once the changes have been made the user can select 'SAVE' and that will redirect back to the selected Recipe Folder.
