@@ -18,7 +18,7 @@ I want to create a recipe tool, that catalogs online recipes in a simple, person
   * A bottom section displaying 'recently viewed' recipes, this will be a carousel that doesn't loop.
   * A dashboard on the bottom which displays 3 buttons: Home, Search(see Stretch), and Your Cookbook
   
-## 2. ADD RECIPE
+### 2. ADD RECIPE
  * As a user I'd like to use the add button on the home page. This would take the user to a new page called 'Add recipe' which would see:
   * A navigator bar which displays a back arrow to go back to home page, the page header and a 'SAVE' button
   * A 'Title' text field to name the recipe
@@ -34,7 +34,7 @@ I want to create a recipe tool, that catalogs online recipes in a simple, person
 - - - - - - - - - - -
 * As a user, once all neccessary details have been added into the form, user can press 'SAVE' in the navigator and the user will be brought back to the home page.
 
-## 3. YOUR COOKBOOK
+### 3. YOUR COOKBOOK
 * As a user I'd like to be able to select 'Your Cookbook' from the dashboard, and that would take the user to another page where the user would see:
     * the same navigator bar which displays the logo, an add button(this adds a new recipe) and settings button(see Stretch)
     * Two tabs(see Stretch), first one says 'Folders' which when selected, displays a '+ Create folder' button. 
@@ -62,19 +62,19 @@ I want to create a recipe tool, that catalogs online recipes in a simple, person
 
 
 # Stretch
-## 1. HOME PAGE
+### 1. HOME PAGE
 * As a user, upon the first time using the app, I'd see a pop-up which is a quick tutorial on how to use the app. This would be a carousel with at least 2 slides. At the end of the carousel there would be 'get started' button.
 * Navigator bar would have a settings button which contains a dropdown menu of all sorts
 * Greeting on home page to be customised to whatever the time was on that user's device e.g. if it's before noon, greeting would say 'good morning' and before midnight it would say 'good evening'. Or maybe greeting can be customised in the settings by the user e.g. 'waddup foodie!'
 * Top section on Home page would always display the recipe folders that are 'most used' by the user
 * Search feature in the dashboard which allows user to search through their database of recipes based on an ingredient.
 
-## 2. ADD RECIPE
+### 2. ADD RECIPE
 * A 'FIND RECIPE' tab which contains a browser inside the window below. There is a search bar at the top which acts the same as a google search bar. 
 * A 'Notes' text field for whatever reason e.g. 'swap butter for coconut oil'
 * A 'PHOTOS' tab which allows you to select a button called '+ ADD PHOTO' and that has a drop down menu of 2 options: take photo or choose photo from gallery. You can also see thumbnails of all photos on display for that recipe. You can also hold down a thumbnail which would give a 'delete' option. 
 
-## 3. YOUR COOKBOOK
+### 3. YOUR COOKBOOK
 * The second tab says 'A-Z' which displays all recipes that have been saved in the app in alphabetical order.
 * For each recipe row or recipe folder, when the delete icon is selected, there should be a pop-up asking if the user is sure they want to delete the recipe.
 * When the edit icon has been selected on a recipe row, the user is able to drag rows around to reorder the recipes.
