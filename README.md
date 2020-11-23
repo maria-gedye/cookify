@@ -7,7 +7,7 @@ I want to create a recipe tool, that catalogs online recipes in a simple, person
 # Tech Specs
 * mobile-first design
 
-# MVP TBC
+# MVP
 1. Create html & css templates for each page
 2. Create React components using html as a guide
 3. Create a database with 2 tables - one for recipe folders, the other for recipes.
