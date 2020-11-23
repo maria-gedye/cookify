@@ -8,7 +8,12 @@ I want to create a recipe tool, that catalogs online recipes in a simple, person
 * mobile-first design
 
 # MVP TBC
-1. 
+1. Create html & css templates for each page
+2. Create React components using html as a guide
+3. Create a database with 2 tables - one for recipe folders, the other for recipes.
+4. Setup routes in server side 
+5. Set up API calls to the server side, and CRUD operations to access and modify db.
+6. Setup the very very very fun redux stuff
 
 # All the nitty gritty details
 * As a user I'd see just the logo upon loading the app
